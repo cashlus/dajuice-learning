@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" fill="none">
+  <defs>
+    <linearGradient id="bg-attr" x1="92" y1="0" x2="1120" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1020" />
+      <stop offset="0.5" stop-color="#0B1022" />
+      <stop offset="1" stop-color="#100B1A" />
+    </linearGradient>
+    <radialGradient id="glow-attr" cx="0" cy="0" r="1" gradientTransform="translate(606 344) rotate(90) scale(430 610)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA" stop-opacity="0.24" />
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="card-attr" x1="340" y1="126" x2="794" y2="642" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15172C" />
+      <stop offset="1" stop-color="#0B1022" />
+    </linearGradient>
+    <linearGradient id="edge-attr" x1="340" y1="126" x2="794" y2="642" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C4B5FD" stop-opacity="0.55" />
+      <stop offset="0.5" stop-color="#A78BFA" stop-opacity="0.12" />
+      <stop offset="1" stop-color="#F0ABFC" stop-opacity="0.38" />
+    </linearGradient>
+    <linearGradient id="tag-attr" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#C4B5FD" />
+      <stop offset="1" stop-color="#F0ABFC" />
+    </linearGradient>
+    <pattern id="grid-attr" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#C4B5FD" stroke-opacity="0.05" />
+    </pattern>
+    <filter id="blur-attr" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="26" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg-attr)" />
+  <rect width="1200" height="760" fill="url(#grid-attr)" />
+  <rect width="1200" height="760" fill="url(#glow-attr)" />
+
+  <g opacity="0.5" filter="url(#blur-attr)">
+    <circle cx="566" cy="368" r="180" fill="#7C3AED" fill-opacity="0.18" />
+    <circle cx="826" cy="454" r="116" fill="#D946EF" fill-opacity="0.1" />
+  </g>
+
+  <g transform="translate(300 112)">
+    <rect x="16" y="16" width="566" height="524" rx="28" fill="#030712" fill-opacity="0.48" />
+    <rect width="566" height="524" rx="28" fill="url(#card-attr)" />
+    <rect x="1" y="1" width="564" height="522" rx="27" stroke="url(#edge-attr)" />
+
+    <text x="42" y="58" fill="#C4B5FD" fill-opacity="0.7" font-family="Inter, Segoe UI, sans-serif" font-size="12" letter-spacing="4">ATTRIBUTE LENS</text>
+    <line x1="42" y1="82" x2="524" y2="82" stroke="white" stroke-opacity="0.08" />
+
+    <g transform="translate(42 112)">
+      <rect width="188" height="344" rx="20" fill="#080D1B" stroke="#A78BFA" stroke-opacity="0.16" />
+      <circle cx="94" cy="104" r="48" stroke="#A78BFA" stroke-opacity="0.45" stroke-width="1.5" />
+      <circle cx="94" cy="104" r="21" fill="#7C3AED" fill-opacity="0.22" stroke="#C4B5FD" stroke-opacity="0.45" />
+      <path d="M94 58V38M94 170V150M48 104H28M160 104H140" stroke="#C4B5FD" stroke-opacity="0.3" />
+      <rect x="34" y="206" width="120" height="8" rx="4" fill="#A78BFA" fill-opacity="0.22" />
+      <rect x="34" y="230" width="96" height="8" rx="4" fill="#A78BFA" fill-opacity="0.16" />
+      <rect x="34" y="254" width="110" height="8" rx="4" fill="#A78BFA" fill-opacity="0.12" />
+      <text x="34" y="312" fill="#94A3B8" font-family="Inter, Segoe UI, sans-serif" font-size="10" letter-spacing="2">OBJECT</text>
+    </g>
+
+    <g transform="translate(260 112)">
+      <g>
+        <rect width="255" height="76" rx="16" fill="#12142A" stroke="#C4B5FD" stroke-opacity="0.2" />
+        <rect x="18" y="19" width="38" height="38" rx="12" fill="#A78BFA" fill-opacity="0.14" />
+        <path d="M30 38H44M37 31V45" stroke="#C4B5FD" stroke-width="1.5" />
+        <text x="72" y="33" fill="#DDD6FE" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600">ATTRIBUTE A</text>
+        <text x="72" y="52" fill="#94A3B8" font-family="Inter, Segoe UI, sans-serif" font-size="10" letter-spacing="1.5">TONE / FRAME</text>
+        <circle cx="222" cy="38" r="8" fill="#A78BFA" fill-opacity="0.2" stroke="#C4B5FD" stroke-opacity="0.5" />
+      </g>
+      <g transform="translate(20 98)">
+        <rect width="255" height="76" rx="16" fill="#12142A" stroke="#C4B5FD" stroke-opacity="0.15" />
+        <rect x="18" y="19" width="38" height="38" rx="12" fill="#F0ABFC" fill-opacity="0.11" />
+        <path d="M30 38H44M37 31V45" stroke="#F0ABFC" stroke-width="1.5" />
+        <text x="72" y="33" fill="#F5D0FE" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600">ATTRIBUTE B</text>
+        <text x="72" y="52" fill="#94A3B8" font-family="Inter, Segoe UI, sans-serif" font-size="10" letter-spacing="1.5">PERSON / STYLE</text>
+        <circle cx="222" cy="38" r="8" fill="#F0ABFC" fill-opacity="0.18" stroke="#F0ABFC" stroke-opacity="0.5" />
+      </g>
+      <g transform="translate(0 196)">
+        <rect width="255" height="76" rx="16" fill="#12142A" stroke="#C4B5FD" stroke-opacity="0.12" />
+        <rect x="18" y="19" width="38" height="38" rx="12" fill="#C4B5FD" fill-opacity="0.09" />
+        <path d="M30 38H44M37 31V45" stroke="#C4B5FD" stroke-width="1.5" />
+        <text x="72" y="33" fill="#DDD6FE" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600">ATTRIBUTE C</text>
+        <text x="72" y="52" fill="#94A3B8" font-family="Inter, Segoe UI, sans-serif" font-size="10" letter-spacing="1.5">CONTEXT / VALUE</text>
+        <circle cx="222" cy="38" r="8" fill="#C4B5FD" fill-opacity="0.14" stroke="#C4B5FD" stroke-opacity="0.4" />
+      </g>
+    </g>
+
+    <path d="M492 190C548 190 548 306 596 306" stroke="url(#tag-attr)" stroke-opacity="0.36" />
+    <circle cx="596" cy="306" r="5" fill="#F0ABFC" />
+  </g>
+
+  <g transform="translate(84 176)">
+    <rect width="156" height="92" rx="20" fill="#08101E" fill-opacity="0.72" stroke="#A78BFA" stroke-opacity="0.16" />
+    <text x="22" y="37" fill="#C4B5FD" fill-opacity="0.62" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="2">SECOND LEVEL</text>
+    <text x="22" y="65" fill="#F5F3FF" font-family="Inter, Segoe UI, sans-serif" font-size="27" font-weight="700">属性</text>
+  </g>
+
+  <g transform="translate(980 528)">
+    <rect width="156" height="92" rx="20" fill="#08101E" fill-opacity="0.72" stroke="#F0ABFC" stroke-opacity="0.14" />
+    <text x="22" y="37" fill="#F0ABFC" fill-opacity="0.58" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="2">1990s–2000s</text>
+    <text x="22" y="65" fill="#FDF4FF" font-family="Inter, Segoe UI, sans-serif" font-size="27" font-weight="700">显著</text>
+  </g>
+
+  <circle cx="924" cy="204" r="3" fill="#F0ABFC" />
+  <circle cx="1058" cy="190" r="2" fill="#C4B5FD" />
+  <circle cx="178" cy="602" r="2" fill="#A78BFA" />
+</svg>

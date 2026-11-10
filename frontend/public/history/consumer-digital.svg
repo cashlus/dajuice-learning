@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="20" x2="1120" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#061420"/>
+      <stop offset="0.55" stop-color="#0A1020"/>
+      <stop offset="1" stop-color="#190F28"/>
+    </linearGradient>
+    <linearGradient id="loop" x1="250" y1="190" x2="950" y2="510" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.48" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#F0ABFC"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(600 338) rotate(90) scale(300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" stroke="#94A3B8" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="675" rx="32" fill="url(#grid)"/>
+  <circle cx="600" cy="338" r="300" fill="url(#halo)"/>
+  <g opacity="0.95">
+    <rect x="282" y="168" width="166" height="316" rx="26" fill="#081522" stroke="#67E8F9" stroke-opacity="0.25"/>
+    <rect x="302" y="194" width="126" height="236" rx="18" fill="#0A1422" stroke="#67E8F9" stroke-opacity="0.15"/>
+    <circle cx="365" cy="454" r="4" fill="#94A3B8" fill-opacity="0.5"/>
+    <rect x="752" y="168" width="166" height="316" rx="26" fill="#081522" stroke="#F0ABFC" stroke-opacity="0.23"/>
+    <rect x="772" y="194" width="126" height="236" rx="18" fill="#0A1422" stroke="#F0ABFC" stroke-opacity="0.14"/>
+    <circle cx="835" cy="454" r="4" fill="#94A3B8" fill-opacity="0.5"/>
+  </g>
+  <g>
+    <circle cx="486" cy="238" r="24" fill="#0B1B2C" stroke="#67E8F9" stroke-opacity="0.4"/>
+    <circle cx="486" cy="238" r="7" fill="#A5F3FC" filter="url(#glow)"/>
+    <circle cx="714" cy="238" r="24" fill="#0C1726" stroke="#A78BFA" stroke-opacity="0.4"/>
+    <circle cx="714" cy="238" r="7" fill="#C4B5FD"/>
+    <circle cx="600" cy="154" r="18" fill="#101426" stroke="#F0ABFC" stroke-opacity="0.35"/>
+    <circle cx="600" cy="154" r="6" fill="#F5D0FE" filter="url(#glow)"/>
+    <circle cx="600" cy="338" r="58" fill="#0D1224" stroke="url(#loop)" stroke-width="2"/>
+    <circle cx="600" cy="338" r="11" fill="#DDD6FE" filter="url(#glow)"/>
+    <circle cx="600" cy="524" r="20" fill="#0D1628" stroke="#F0ABFC" stroke-opacity="0.32"/>
+    <circle cx="600" cy="524" r="6" fill="#F5D0FE"/>
+  </g>
+  <path d="M510 238C552 268 564 290 575 300M690 238C648 268 636 290 625 300M600 172V280M600 396V504M486 238L442 212M714 238L758 212" stroke="#E2E8F0" stroke-opacity="0.17"/>
+  <path d="M365 252C420 196 510 176 574 176" stroke="#67E8F9" stroke-opacity="0.18" stroke-linecap="round"/>
+  <path d="M835 424C778 484 694 510 626 510" stroke="#F0ABFC" stroke-opacity="0.18" stroke-linecap="round"/>
+  <path d="M458 550C526 610 676 610 744 550" stroke="#A78BFA" stroke-opacity="0.2" stroke-linecap="round" stroke-dasharray="5 10"/>
+  <g>
+    <rect x="332" y="512" width="90" height="52" rx="14" fill="#67E8F9" fill-opacity="0.07" stroke="#67E8F9" stroke-opacity="0.2"/>
+    <path d="M352 538H400" stroke="#A5F3FC" stroke-opacity="0.5" stroke-linecap="round"/>
+    <rect x="780" y="512" width="90" height="52" rx="14" fill="#F0ABFC" fill-opacity="0.07" stroke="#F0ABFC" stroke-opacity="0.2"/>
+    <path d="M800 538H848" stroke="#F5D0FE" stroke-opacity="0.5" stroke-linecap="round"/>
+  </g>
+  <text x="96" y="104" fill="#A5F3FC" fill-opacity="0.4" font-family="monospace" font-size="11" letter-spacing="4">SOCIAL PROOF</text>
+  <text x="1104" y="104" text-anchor="end" fill="#F5D0FE" fill-opacity="0.34" font-family="monospace" font-size="11" letter-spacing="4">RECOMMENDATION LOOP</text>
+  <text x="600" y="636" text-anchor="middle" fill="#CBD5E1" fill-opacity="0.34" font-family="monospace" font-size="12" letter-spacing="6">PLATFORM · REVIEW · ALGORITHMIC ATTENTION</text>
+</svg>

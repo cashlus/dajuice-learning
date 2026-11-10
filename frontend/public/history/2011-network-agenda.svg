@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" fill="none">
+  <defs>
+    <linearGradient id="bg-net" x1="108" y1="18" x2="1108" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0A1A" />
+      <stop offset="0.5" stop-color="#0A0D1B" />
+      <stop offset="1" stop-color="#140A1A" />
+    </linearGradient>
+    <radialGradient id="glow-net" cx="0" cy="0" r="1" gradientTransform="translate(600 386) rotate(90) scale(430)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E879F9" stop-opacity="0.2" />
+      <stop offset="0.55" stop-color="#8B5CF6" stop-opacity="0.08" />
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="node-net" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F0ABFC" />
+      <stop offset="1" stop-color="#67E8F9" />
+    </linearGradient>
+    <pattern id="grid-net" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V52" stroke="#E879F9" stroke-opacity="0.045" />
+    </pattern>
+    <filter id="blur-net" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="24" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg-net)" />
+  <rect width="1200" height="760" fill="url(#grid-net)" />
+  <rect width="1200" height="760" fill="url(#glow-net)" />
+
+  <g opacity="0.55" filter="url(#blur-net)">
+    <circle cx="590" cy="384" r="134" fill="#C026D3" fill-opacity="0.2" />
+    <circle cx="860" cy="298" r="72" fill="#22D3EE" fill-opacity="0.13" />
+  </g>
+
+  <g stroke="#A855F7" stroke-opacity="0.26" stroke-width="1.2">
+    <path d="M604 388L354 218" />
+    <path d="M604 388L446 558" />
+    <path d="M604 388L814 182" />
+    <path d="M604 388L942 338" />
+    <path d="M604 388L864 574" />
+    <path d="M604 388L652 654" />
+    <path d="M354 218L446 558" />
+    <path d="M354 218L604 112" />
+    <path d="M814 182L942 338" />
+    <path d="M814 182L604 112" />
+    <path d="M942 338L864 574" />
+    <path d="M864 574L652 654" />
+    <path d="M446 558L652 654" />
+    <path d="M814 182L1004 184" />
+    <path d="M942 338L1066 428" />
+    <path d="M354 218L238 366" />
+    <path d="M238 366L446 558" />
+  </g>
+
+  <g stroke="#67E8F9" stroke-opacity="0.22" stroke-width="1">
+    <path d="M604 388L814 182L1004 184" stroke-dasharray="5 8" />
+    <path d="M604 388L942 338L1066 428" stroke-dasharray="5 8" />
+    <path d="M354 218L238 366L446 558" stroke-dasharray="5 8" />
+  </g>
+
+  <g>
+    <circle cx="604" cy="388" r="78" fill="#100A20" stroke="url(#node-net)" stroke-opacity="0.65" />
+    <circle cx="604" cy="388" r="49" fill="#C026D3" fill-opacity="0.13" stroke="#F0ABFC" stroke-opacity="0.45" />
+    <circle cx="604" cy="388" r="11" fill="#F5D0FE" />
+    <circle cx="604" cy="388" r="21" stroke="#F0ABFC" stroke-opacity="0.42" />
+  </g>
+
+  <g fill="#0B0A18" stroke-width="2">
+    <circle cx="354" cy="218" r="22" stroke="#C084FC" stroke-opacity="0.8" />
+    <circle cx="446" cy="558" r="17" stroke="#A855F7" stroke-opacity="0.65" />
+    <circle cx="814" cy="182" r="25" stroke="#67E8F9" stroke-opacity="0.68" />
+    <circle cx="942" cy="338" r="18" stroke="#E879F9" stroke-opacity="0.75" />
+    <circle cx="864" cy="574" r="24" stroke="#A78BFA" stroke-opacity="0.72" />
+    <circle cx="652" cy="654" r="14" stroke="#67E8F9" stroke-opacity="0.58" />
+    <circle cx="604" cy="112" r="13" stroke="#E879F9" stroke-opacity="0.7" />
+    <circle cx="1004" cy="184" r="11" stroke="#67E8F9" stroke-opacity="0.58" />
+    <circle cx="1066" cy="428" r="9" stroke="#C084FC" stroke-opacity="0.55" />
+    <circle cx="238" cy="366" r="12" stroke="#A855F7" stroke-opacity="0.55" />
+  </g>
+
+  <g fill="#F5D0FE">
+    <circle cx="354" cy="218" r="5" />
+    <circle cx="814" cy="182" r="6" fill="#A5F3FC" />
+    <circle cx="942" cy="338" r="4" />
+    <circle cx="864" cy="574" r="5" fill="#DDD6FE" />
+    <circle cx="446" cy="558" r="4" fill="#C084FC" />
+    <circle cx="652" cy="654" r="3" fill="#A5F3FC" />
+    <circle cx="604" cy="112" r="3" />
+    <circle cx="1004" cy="184" r="3" fill="#A5F3FC" />
+    <circle cx="1066" cy="428" r="2.5" fill="#C084FC" />
+    <circle cx="238" cy="366" r="3" fill="#C084FC" />
+  </g>
+
+  <g transform="translate(752 604)">
+    <rect width="344" height="102" rx="22" fill="#080C18" fill-opacity="0.82" stroke="#E879F9" stroke-opacity="0.16" />
+    <text x="26" y="38" fill="#F0ABFC" fill-opacity="0.66" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="4">NETWORK AGENDA / 2011</text>
+    <text x="26" y="68" fill="#FAF5FF" font-family="Inter, Segoe UI, sans-serif" font-size="23" font-weight="600">ASSOCIATION NETWORK</text>
+    <text x="26" y="88" fill="#94A3B8" font-family="Inter, Segoe UI, sans-serif" font-size="10" letter-spacing="2">OBJECTS × ATTRIBUTES</text>
+  </g>
+
+  <g transform="translate(118 110)">
+    <rect width="210" height="96" rx="20" fill="#080C18" fill-opacity="0.66" stroke="#A855F7" stroke-opacity="0.15" />
+    <text x="24" y="35" fill="#C084FC" fill-opacity="0.58" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="2">THIRD LEVEL</text>
+    <text x="24" y="65" fill="#FAF5FF" font-family="Inter, Segoe UI, sans-serif" font-size="26" font-weight="700">关联网络</text>
+  </g>
+
+  <g opacity="0.6">
+    <circle cx="1076" cy="614" r="2" fill="#A5F3FC" />
+    <circle cx="1110" cy="142" r="2" fill="#F0ABFC" />
+    <circle cx="748" cy="90" r="2" fill="#C084FC" />
+    <path d="M1086 624L1112 650M1092 640H1114" stroke="#A5F3FC" stroke-width="1" />
+  </g>
+</svg>

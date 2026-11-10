@@ -1,0 +1,74 @@
+[
+  {
+    "id": "en-01",
+    "input": "Negative liberty means no one is stopping me from doing what I want.",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "plain_def",
+    "origin": "test_bm25.py / en / expected_segment=[8, 9]"
+  },
+  {
+    "id": "en-02",
+    "input": "Positive liberty is about being self-determined and in control of your own destiny.",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "plain_def",
+    "origin": "test_bm25.py / en / expected_segment=[8, 9]"
+  },
+  {
+    "id": "en-03",
+    "input": "Freedom is a relation between an agent, constraints, and purposes.",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "advanced_def",
+    "origin": "test_bm25.py / en / expected_segment=[38]"
+  },
+  {
+    "id": "en-04",
+    "input": "I can do anything as long as the law does not interfere.",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "plain_def",
+    "origin": "test_bm25.py / en / expected_segment=[8, 9]"
+  },
+  {
+    "id": "en-05",
+    "input": "The distinction between negative and positive liberty was proposed by Isaiah Berlin.",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "primary_def",
+    "origin": "test_bm25.py / en / expected_segment=[9]"
+  },
+  {
+    "id": "zh-01",
+    "input": "消极自由就是没人拦着我做我想做的事",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "plain_def",
+    "origin": "test_bm25.py / zh / expected_segment=[8, 9]"
+  },
+  {
+    "id": "zh-02",
+    "input": "积极自由是自己掌控自己的命运",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "plain_def",
+    "origin": "test_bm25.py / zh / expected_segment=[8, 9]"
+  },
+  {
+    "id": "zh-03",
+    "input": "自由是主体、约束和目的三者之间的关系",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "advanced_def",
+    "origin": "test_bm25.py / zh / expected_segment=[38]"
+  }
+]

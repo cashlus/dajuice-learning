@@ -1,0 +1,14 @@
+frontend
+Codex_Backup_Streamlit
+.runtime
+__pycache__
+*.py[cod]
+*.diff
+*.jsonl
+logs
+data
+.git
+.venv
+venv
+node_modules
+.next

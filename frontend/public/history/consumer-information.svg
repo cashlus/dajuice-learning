@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="100" y1="0" x2="1100" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071422"/>
+      <stop offset="0.58" stop-color="#0A1020"/>
+      <stop offset="1" stop-color="#160F26"/>
+    </linearGradient>
+    <linearGradient id="lens" x1="432" y1="206" x2="780" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.5" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#F0ABFC"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(600 338) rotate(90) scale(270)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#94A3B8" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="675" rx="32" fill="url(#grid)"/>
+  <circle cx="600" cy="338" r="280" fill="url(#halo)"/>
+  <path d="M287 238H440C459 238 474 253 474 272V404C474 423 459 438 440 438H287" stroke="#67E8F9" stroke-opacity="0.28" stroke-width="2"/>
+  <path d="M913 218H786C754 218 728 244 728 276V400C728 432 754 458 786 458H913" stroke="#A78BFA" stroke-opacity="0.28" stroke-width="2"/>
+  <circle cx="600" cy="338" r="124" fill="#091323" stroke="url(#lens)" stroke-width="2"/>
+  <circle cx="600" cy="338" r="84" stroke="#A5F3FC" stroke-opacity="0.23" stroke-dasharray="3 8"/>
+  <circle cx="600" cy="338" r="12" fill="#C4B5FD" filter="url(#glow)"/>
+  <path d="M474 338H512M688 338H728" stroke="#E2E8F0" stroke-opacity="0.24" stroke-dasharray="4 8"/>
+  <g stroke-linecap="round">
+    <path d="M334 294H436" stroke="#67E8F9" stroke-opacity="0.34"/>
+    <path d="M310 338H436" stroke="#67E8F9" stroke-opacity="0.22"/>
+    <path d="M334 382H436" stroke="#67E8F9" stroke-opacity="0.28"/>
+    <path d="M764 294H866" stroke="#A78BFA" stroke-opacity="0.3"/>
+    <path d="M764 338H890" stroke="#A78BFA" stroke-opacity="0.22"/>
+    <path d="M764 382H866" stroke="#A78BFA" stroke-opacity="0.28"/>
+  </g>
+  <g fill="#A5F3FC">
+    <circle cx="385" cy="294" r="4" fill-opacity="0.7"/>
+    <circle cx="350" cy="338" r="3" fill-opacity="0.5"/>
+    <circle cx="405" cy="382" r="4" fill-opacity="0.7"/>
+  </g>
+  <g fill="#C4B5FD">
+    <circle cx="812" cy="294" r="4" fill-opacity="0.7"/>
+    <circle cx="848" cy="338" r="3" fill-opacity="0.5"/>
+    <circle cx="796" cy="382" r="4" fill-opacity="0.7"/>
+  </g>
+  <path d="M600 214V246M600 430V462" stroke="#E2E8F0" stroke-opacity="0.18"/>
+  <path d="M530 272L600 214L670 272M530 404L600 462L670 404" stroke="#F0ABFC" stroke-opacity="0.16"/>
+  <text x="120" y="576" fill="#A5F3FC" fill-opacity="0.36" font-family="monospace" font-size="11" letter-spacing="4">SEARCH · ENCODE · EVALUATE</text>
+  <text x="1080" y="104" text-anchor="end" fill="#F5D0FE" fill-opacity="0.34" font-family="monospace" font-size="11" letter-spacing="4">ATTITUDE → INTENTION</text>
+  <text x="600" y="636" text-anchor="middle" fill="#CBD5E1" fill-opacity="0.34" font-family="monospace" font-size="12" letter-spacing="6">INFORMATION · PROCESS · ATTITUDE</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071423"/>
+      <stop offset="0.6" stop-color="#09101F"/>
+      <stop offset="1" stop-color="#121026"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="160" y1="548" x2="1036" y2="124" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#67E8F9" stop-opacity="0.55"/>
+      <stop offset="0.72" stop-color="#A78BFA" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#F0ABFC" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" stroke="#94A3B8" stroke-opacity="0.08"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="675" rx="32" fill="url(#grid)"/>
+  <path d="M105 566C302 488 407 400 544 327C687 251 834 211 1093 106" stroke="url(#beam)" stroke-width="2"/>
+  <path d="M112 512C320 440 447 349 567 290C720 214 908 187 1084 150" stroke="#67E8F9" stroke-opacity="0.08" stroke-width="18"/>
+  <g opacity="0.94">
+    <rect x="154" y="282" width="256" height="176" rx="24" fill="#0A1A2B" stroke="#67E8F9" stroke-opacity="0.28"/>
+    <rect x="178" y="308" width="92" height="8" rx="4" fill="#67E8F9" fill-opacity="0.58"/>
+    <rect x="178" y="330" width="198" height="6" rx="3" fill="#CBD5E1" fill-opacity="0.18"/>
+    <rect x="178" y="350" width="166" height="6" rx="3" fill="#CBD5E1" fill-opacity="0.13"/>
+    <path d="M180 416C216 382 242 400 274 370C307 339 340 365 380 326" stroke="#67E8F9" stroke-opacity="0.5" stroke-width="2"/>
+    <circle cx="380" cy="326" r="6" fill="#A5F3FC" filter="url(#glow)"/>
+  </g>
+  <g opacity="0.94">
+    <rect x="794" y="198" width="256" height="176" rx="24" fill="#0C1326" stroke="#A78BFA" stroke-opacity="0.3"/>
+    <circle cx="852" cy="252" r="24" fill="#A78BFA" fill-opacity="0.1" stroke="#A78BFA" stroke-opacity="0.4"/>
+    <rect x="890" y="240" width="96" height="8" rx="4" fill="#C4B5FD" fill-opacity="0.58"/>
+    <rect x="890" y="262" width="68" height="6" rx="3" fill="#CBD5E1" fill-opacity="0.18"/>
+    <path d="M826 330H1018M826 348H968" stroke="#CBD5E1" stroke-opacity="0.13" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="494" y="196" width="214" height="306" rx="30" fill="#081522" stroke="#E2E8F0" stroke-opacity="0.18"/>
+    <rect x="514" y="220" width="174" height="242" rx="20" fill="#0A1422" stroke="#67E8F9" stroke-opacity="0.2"/>
+    <circle cx="601" cy="478" r="4" fill="#94A3B8" fill-opacity="0.5"/>
+    <rect x="538" y="246" width="84" height="7" rx="3.5" fill="#67E8F9" fill-opacity="0.6"/>
+    <path d="M540 342C560 310 578 328 594 296C612 262 634 286 664 252" stroke="#A78BFA" stroke-opacity="0.55" stroke-width="2"/>
+    <circle cx="540" cy="342" r="4" fill="#67E8F9"/>
+    <circle cx="594" cy="296" r="4" fill="#A78BFA"/>
+    <circle cx="664" cy="252" r="4" fill="#F0ABFC" filter="url(#glow)"/>
+    <rect x="538" y="382" width="126" height="42" rx="12" fill="#67E8F9" fill-opacity="0.08" stroke="#67E8F9" stroke-opacity="0.25"/>
+    <path d="M558 404H620M632 404H646" stroke="#A5F3FC" stroke-opacity="0.55" stroke-linecap="round"/>
+  </g>
+  <g fill="#A5F3FC">
+    <circle cx="324" cy="493" r="3" fill-opacity="0.7"/>
+    <circle cx="383" cy="462" r="2" fill-opacity="0.5"/>
+    <circle cx="446" cy="431" r="4" fill-opacity="0.8"/>
+    <circle cx="748" cy="274" r="3" fill-opacity="0.6"/>
+    <circle cx="812" cy="246" r="2" fill-opacity="0.5"/>
+    <circle cx="882" cy="218" r="4" fill-opacity="0.8"/>
+  </g>
+  <text x="1060" y="595" text-anchor="end" fill="#CBD5E1" fill-opacity="0.38" font-family="monospace" font-size="12" letter-spacing="5">TOUCHPOINT · JOURNEY · CONVERSION</text>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" fill="none">
+  <defs>
+    <linearGradient id="bg-1972" x1="110" y1="0" x2="1080" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071827" />
+      <stop offset="0.48" stop-color="#08111F" />
+      <stop offset="1" stop-color="#06101A" />
+    </linearGradient>
+    <radialGradient id="glow-1972" cx="0" cy="0" r="1" gradientTransform="translate(780 240) rotate(127) scale(540 390)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="paper-1972" x1="205" y1="178" x2="552" y2="606" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF8FF" stop-opacity="0.97" />
+      <stop offset="1" stop-color="#A7DDF6" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="ink-1972" x1="283" y1="270" x2="510" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E7490" />
+      <stop offset="1" stop-color="#075985" />
+    </linearGradient>
+    <linearGradient id="beam-1972" x1="620" y1="380" x2="1090" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0" />
+      <stop offset="0.45" stop-color="#67E8F9" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="grid-1972" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#7DD3FC" stroke-opacity="0.055" />
+    </pattern>
+    <filter id="blur-1972" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="22" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg-1972)" />
+  <rect width="1200" height="760" fill="url(#grid-1972)" />
+  <rect width="1200" height="760" fill="url(#glow-1972)" />
+
+  <g opacity="0.35" filter="url(#blur-1972)">
+    <circle cx="880" cy="346" r="124" stroke="#22D3EE" stroke-width="2" />
+    <circle cx="880" cy="346" r="194" stroke="#38BDF8" stroke-width="1.5" />
+  </g>
+
+  <g transform="translate(195 135) rotate(-5 210 270)">
+    <rect x="12" y="20" width="430" height="548" rx="18" fill="#020617" fill-opacity="0.55" />
+    <rect width="430" height="548" rx="18" fill="url(#paper-1972)" />
+    <rect x="1" y="1" width="428" height="546" rx="17" stroke="white" stroke-opacity="0.7" />
+    <rect x="34" y="34" width="206" height="15" rx="7.5" fill="#0E7490" />
+    <rect x="34" y="61" width="118" height="5" rx="2.5" fill="#0E7490" fill-opacity="0.42" />
+    <line x1="34" y1="86" x2="396" y2="86" stroke="#0E7490" stroke-opacity="0.35" />
+    <rect x="34" y="112" width="170" height="170" rx="8" fill="#0F172A" />
+    <circle cx="119" cy="197" r="46" stroke="#67E8F9" stroke-width="2" />
+    <circle cx="119" cy="197" r="20" fill="#22D3EE" fill-opacity="0.66" />
+    <path d="M34 322H396M34 348H396M34 374H355M34 400H382M34 426H365" stroke="url(#ink-1972)" stroke-opacity="0.34" stroke-width="7" stroke-linecap="round" />
+    <rect x="232" y="112" width="164" height="74" rx="8" fill="#0E7490" fill-opacity="0.12" />
+    <path d="M249 139H377M249 157H346" stroke="#0E7490" stroke-opacity="0.55" stroke-width="7" stroke-linecap="round" />
+    <rect x="34" y="462" width="362" height="1" fill="#0E7490" fill-opacity="0.28" />
+    <rect x="34" y="484" width="98" height="8" rx="4" fill="#0E7490" fill-opacity="0.26" />
+    <rect x="150" y="484" width="98" height="8" rx="4" fill="#0E7490" fill-opacity="0.26" />
+    <rect x="266" y="484" width="130" height="8" rx="4" fill="#0E7490" fill-opacity="0.26" />
+  </g>
+
+  <path d="M580 380H1075" stroke="url(#beam-1972)" stroke-width="2" />
+  <path d="M590 367C665 367 689 310 760 310H1050" stroke="#67E8F9" stroke-opacity="0.22" stroke-width="1" />
+  <path d="M590 394C670 394 706 447 780 447H1050" stroke="#38BDF8" stroke-opacity="0.18" stroke-width="1" />
+
+  <g>
+    <circle cx="760" cy="310" r="10" fill="#06101A" stroke="#67E8F9" stroke-width="2" />
+    <circle cx="760" cy="310" r="3" fill="#A5F3FC" />
+    <circle cx="880" cy="346" r="20" fill="#22D3EE" fill-opacity="0.12" stroke="#67E8F9" stroke-width="1.5" />
+    <circle cx="880" cy="346" r="6" fill="#ECFEFF" />
+    <circle cx="1004" cy="447" r="13" fill="#06101A" stroke="#38BDF8" stroke-width="2" />
+    <circle cx="1004" cy="447" r="4" fill="#BAE6FD" />
+  </g>
+
+  <g transform="translate(738 154)">
+    <rect width="330" height="108" rx="22" fill="#07111D" fill-opacity="0.76" stroke="#67E8F9" stroke-opacity="0.18" />
+    <text x="28" y="42" fill="#67E8F9" fill-opacity="0.66" font-family="Inter, Segoe UI, sans-serif" font-size="13" letter-spacing="4">LAYER 01 / 1972</text>
+    <text x="28" y="75" fill="#ECFEFF" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="600">OBJECT SALIENCE</text>
+    <text x="28" y="94" fill="#94A3B8" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="2">MEDIA AGENDA → PUBLIC AGENDA</text>
+  </g>
+
+  <g opacity="0.43">
+    <circle cx="1078" cy="136" r="3" fill="#67E8F9" />
+    <circle cx="1112" cy="616" r="2" fill="#38BDF8" />
+    <circle cx="634" cy="650" r="2" fill="#67E8F9" />
+    <path d="M1088 144L1104 160M1088 152H1104V136" stroke="#67E8F9" stroke-width="1" />
+  </g>
+</svg>

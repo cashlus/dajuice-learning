@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#061420"/>
+      <stop offset="0.55" stop-color="#0A1020"/>
+      <stop offset="1" stop-color="#171026"/>
+    </linearGradient>
+    <linearGradient id="profile" x1="350" y1="160" x2="800" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9" stop-opacity="0.55"/>
+      <stop offset="0.52" stop-color="#818CF8" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#F0ABFC" stop-opacity="0.16"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="translate(520 336) rotate(90) scale(210)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#CBD5E1" fill-opacity="0.1"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="675" rx="32" fill="url(#dots)"/>
+  <circle cx="510" cy="332" r="245" fill="url(#core)"/>
+  <path d="M498 190C410 190 337 263 337 352C337 418 376 474 432 499C449 423 485 373 550 345C600 323 645 289 670 242C635 210 573 190 498 190Z" fill="url(#profile)" fill-opacity="0.16" stroke="url(#profile)" stroke-width="2"/>
+  <circle cx="534" cy="300" r="8" fill="#A5F3FC" filter="url(#glow)"/>
+  <path d="M559 280C596 250 644 247 681 269" stroke="#A5F3FC" stroke-opacity="0.38" stroke-linecap="round"/>
+  <path d="M557 328C595 344 624 372 640 407" stroke="#C4B5FD" stroke-opacity="0.34" stroke-linecap="round"/>
+  <g>
+    <circle cx="792" cy="218" r="34" fill="#0C1828" stroke="#67E8F9" stroke-opacity="0.38"/>
+    <path d="M792 202V234M776 218H808" stroke="#A5F3FC" stroke-opacity="0.65" stroke-linecap="round"/>
+    <circle cx="865" cy="352" r="34" fill="#0D1427" stroke="#A78BFA" stroke-opacity="0.4"/>
+    <path d="M850 352H880M865 337V367" stroke="#C4B5FD" stroke-opacity="0.6" stroke-linecap="round"/>
+    <circle cx="760" cy="476" r="34" fill="#101426" stroke="#F0ABFC" stroke-opacity="0.35"/>
+    <path d="M746 476H774M760 462V490" stroke="#F5D0FE" stroke-opacity="0.6" stroke-linecap="round"/>
+  </g>
+  <path d="M681 269L758 230M640 407L738 474M670 242L822 320" stroke="#E2E8F0" stroke-opacity="0.17" stroke-dasharray="4 9"/>
+  <g opacity="0.9">
+    <path d="M159 486C226 486 276 535 276 596" stroke="#67E8F9" stroke-opacity="0.2" stroke-linecap="round"/>
+    <path d="M180 444C271 444 345 511 345 596" stroke="#818CF8" stroke-opacity="0.16" stroke-linecap="round"/>
+    <path d="M203 404C305 404 400 493 400 596" stroke="#F0ABFC" stroke-opacity="0.12" stroke-linecap="round"/>
+  </g>
+  <text x="96" y="104" fill="#A5F3FC" fill-opacity="0.42" font-family="monospace" font-size="11" letter-spacing="4">MOTIVATION</text>
+  <text x="96" y="125" fill="#CBD5E1" fill-opacity="0.22" font-family="monospace" font-size="10" letter-spacing="2">NEED → DRIVE → CHOICE</text>
+  <text x="600" y="636" text-anchor="middle" fill="#CBD5E1" fill-opacity="0.34" font-family="monospace" font-size="12" letter-spacing="6">CONSUMER · MOTIVE · DECISION</text>
+</svg>

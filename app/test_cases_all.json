@@ -1,0 +1,170 @@
+[
+  {
+    "id": "en-01",
+    "input": "Negative liberty means no one is stopping me from doing what I want.",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "plain_def",
+    "origin": "test_bm25.py / en / expected_segment=[8, 9]",
+    "note": "原文直述：span 8 “no one is stopping you from doing whatever you might want to do”",
+    "source": "original"
+  },
+  {
+    "id": "en-02",
+    "input": "Positive liberty is about being self-determined and in control of your own destiny.",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "plain_def",
+    "origin": "test_bm25.py / en / expected_segment=[8, 9]",
+    "note": "原文直述：span 8 “self-determined … control your own destiny”",
+    "source": "original"
+  },
+  {
+    "id": "en-03",
+    "input": "Freedom is a relation between an agent, constraints, and purposes.",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "advanced_def",
+    "origin": "test_bm25.py / en / expected_segment=[38]",
+    "note": "原文直述：span 38 “triadic relation … an agent, certain preventing conditions, and certain doings or becomings”",
+    "source": "original"
+  },
+  {
+    "id": "en-04",
+    "input": "I can do anything as long as the law does not interfere.",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "plain_def",
+    "origin": "test_bm25.py / en / expected_segment=[8, 9]",
+    "note": "推论型：law 是 external obstacles 的学术化具体化",
+    "source": "original"
+  },
+  {
+    "id": "en-05",
+    "input": "The distinction between negative and positive liberty was proposed by Isaiah Berlin.",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "primary_def",
+    "origin": "test_bm25.py / en / expected_segment=[9]",
+    "note": "原文直述：span 9 “Isaiah Berlin called these two concepts of liberty negative and positive”",
+    "source": "original"
+  },
+  {
+    "id": "zh-01",
+    "input": "消极自由就是没人拦着我做我想做的事",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "plain_def",
+    "origin": "test_bm25.py / zh / expected_segment=[8, 9]",
+    "note": "原文直述（跨语言）：对应 span 8 的 negative liberty 定义",
+    "source": "original"
+  },
+  {
+    "id": "zh-02",
+    "input": "积极自由是自己掌控自己的命运",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "plain_def",
+    "origin": "test_bm25.py / zh / expected_segment=[8, 9]",
+    "note": "原文直述（跨语言）：对应 span 8 的 self-determination 表述",
+    "source": "original"
+  },
+  {
+    "id": "zh-03",
+    "input": "自由是主体、约束和目的三者之间的关系",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "advanced_def",
+    "origin": "test_bm25.py / zh / expected_segment=[38]",
+    "note": "原文直述（跨语言）：对应 span 38 的 triadic relation",
+    "source": "original"
+  },
+  {
+    "id": "neg-en-01",
+    "input": "Negative liberty requires self-mastery and control over one's own passions.",
+    "expected": [
+      "矛盾"
+    ],
+    "expected_role": "",
+    "note": "原文把 self-mastery 归给 positive liberty（span 8/9），直接否定该断言",
+    "source": "reconstructed"
+  },
+  {
+    "id": "neg-en-02",
+    "input": "Positive liberty means the absence of external obstacles and interference.",
+    "expected": [
+      "矛盾"
+    ],
+    "expected_role": "",
+    "note": "span 9 明确 positive liberty 是 presence of control，不是 absence of obstacles",
+    "source": "reconstructed"
+  },
+  {
+    "id": "neg-en-03",
+    "input": "Isaiah Berlin argued that freedom is a single concept rather than two.",
+    "expected": [
+      "矛盾"
+    ],
+    "expected_role": "",
+    "note": "span 9 明确说 Berlin 区分了两种概念（two concepts）",
+    "source": "reconstructed"
+  },
+  {
+    "id": "neg-en-04",
+    "input": "Freedom as non-domination is the third concept of liberty.",
+    "expected": [
+      "未被覆盖"
+    ],
+    "expected_role": "",
+    "note": "共和主义“无支配”不在三段 source_spans 中",
+    "source": "reconstructed"
+  },
+  {
+    "id": "neg-en-05",
+    "input": "Freedom means the law does not interfere with what I want to do.",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "",
+    "note": "推论型：law 是 external obstacles 的学术化具体化（同 en-04 口径）",
+    "source": "reconstructed"
+  },
+  {
+    "id": "neg-zh-01",
+    "input": "消极自由就是自我实现和自我掌控。",
+    "expected": [
+      "矛盾"
+    ],
+    "expected_role": "",
+    "note": "原文把 self-realization / self-mastery 归给 positive liberty，直接否定该断言",
+    "source": "reconstructed"
+  },
+  {
+    "id": "neg-zh-02",
+    "input": "共和主义的无支配自由是第三种自由概念。",
+    "expected": [
+      "未被覆盖"
+    ],
+    "expected_role": "",
+    "note": "共和主义“无支配”不在三段 source_spans 中",
+    "source": "reconstructed"
+  },
+  {
+    "id": "neg-zh-03",
+    "input": "自由就是法律不干涉我做我想做的事。",
+    "expected": [
+      "支持"
+    ],
+    "expected_role": "",
+    "note": "推论型：law 是 external obstacles 的学术化具体化（同 en-04 口径）",
+    "source": "reconstructed"
+  }
+]

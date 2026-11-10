@@ -1,0 +1,65 @@
+[
+  {
+    "i": 0,
+    "span": "议程设置就是媒体通过突出报道某些议题让公众觉得这些议题更重要",
+    "covered": [
+      "K1",
+      "K2",
+      "K3"
+    ],
+    "missing": [],
+    "verdict": "对"
+  },
+  {
+    "i": 1,
+    "span": "第一层是对象显著性，第二层是属性显著性",
+    "covered": [
+      "K4"
+    ],
+    "missing": [],
+    "verdict": "对"
+  },
+  {
+    "i": 2,
+    "span": "网络议程设置是对象与属性关联网络的转移",
+    "covered": [
+      "K4"
+    ],
+    "missing": [],
+    "verdict": "对"
+  },
+  {
+    "i": 3,
+    "span": "它还受到政府和公关的影响",
+    "covered": [],
+    "missing": [],
+    "verdict": "部分对"
+  },
+  {
+    "i": 4,
+    "span": "算法推荐也会影响我看到什么",
+    "covered": [
+      "K1"
+    ],
+    "missing": [],
+    "verdict": "部分对"
+  },
+  {
+    "i": 5,
+    "span": "但它不直接决定我支持谁",
+    "covered": [
+      "K5"
+    ],
+    "missing": [],
+    "verdict": "对"
+  },
+  {
+    "i": 6,
+    "span": "也不等同于priming",
+    "covered": [
+      "K5"
+    ],
+    "missing": [],
+    "verdict": "对"
+  }
+]

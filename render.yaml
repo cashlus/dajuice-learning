@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: dajuice-api
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: LLM_API_KEY
+        sync: false
+      - key: LLM_BASE_URL
+        sync: false
+      - key: TAVILY_API_KEY
+        sync: false
+      - key: USER_TOKENS
+        sync: false
+      - key: LLM_MODEL
+        value: deepseek-chat
+      - key: LLM_MAX_TOKENS
+        value: "4000"
+      - key: DAILY_DIAGNOSIS_LIMIT
+        value: "50"
+      - key: MONTHLY_DIAGNOSIS_LIMIT
+        value: "1000"
+      - key: DAILY_TAVILY_LIMIT
+        value: "5"
+      - key: MONTHLY_TAVILY_LIMIT
+        value: "60"
+      - key: QUOTA_TIMEZONE_OFFSET
+        value: "8"

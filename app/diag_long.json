@@ -1,0 +1,198 @@
+{
+  "claim": "议程设置就是媒体通过突出报道某些议题让公众觉得这些议题更重要，第一层是对象显著性，第二层是属性显著性，网络议程设置是对象与属性关联网络的转移，它还受到政府和公关的影响，算法推荐也会影响我看到什么，但它不直接决定我支持谁，也不等同于priming。",
+  "requested_model": "deepseek-chat",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11018,
+    "completion_tokens": 1813,
+    "total_tokens": 12831,
+    "prompt_tokens_details": {
+      "cached_tokens": 6272
+    },
+    "prompt_cache_hit_tokens": 6272,
+    "prompt_cache_miss_tokens": 4746
+  },
+  "elapsed_seconds": 7.482,
+  "search_attempted": false,
+  "search_elapsed_ms": 0,
+  "reference_context_present": false,
+  "reference_context_chars": 0,
+  "parse_ok": true,
+  "parse_error": null,
+  "content": "{\n  \"concept\": \"agenda-setting\",\n  \"claim\": \"议程设置就是媒体通过突出报道某些议题让公众觉得这些议题更重要，第一层是对象显著性，第二层是属性显著性，网络议程设置是对象与属性关联网络的转移，它还受到政府和公关的影响，算法推荐也会影响我看到什么，但它不直接决定我支持谁，也不等同于priming。\",\n  \"overall\": \"部分对\",\n  \"points\": [\n    {\n      \"claim_span\": \"议程设置就是媒体通过突出报道某些议题让公众觉得这些议题更重要\",\n      \"subject\": \"新闻媒体\",\n      \"card_ref\": [\"checkpoints[C1]\", \"checkpoints[C8]\", \"core_definition[E1]\", \"core_definition[E4]\", \"necessary_boundary[B1]\", \"necessary_boundary[B2]\"],\n      \"coverage_level\": \"knowledge_backed\",\n      \"verdict\": \"对\",\n      \"error_type\": {\"primary\": \"无\", \"secondary\": null},\n      \"evidence_gap\": null,\n      \"correction\": \"符合 core_definition[E1] 与 necessary_boundary[B1][B2]：媒体突出报道对象、公众觉得更重要，正是对象显著性转移。可补充 core_definition[E4] 的“概率性、条件性”限定，说明曝光是经验前提而非充分条件。\",\n      \"covered_key_elements\": [\"K1\", \"K2\", \"K3\"],\n      \"missing_key_elements\": []\n    },\n    {\n      \"claim_span\": \"第一层是对象显著性，第二层是属性显著性\",\n      \"subject\": \"议程设置理论层次\",\n      \"card_ref\": [\"checkpoints[C1]\", \"checkpoints[C8]\", \"core_definition[E1]\", \"core_definition[E2]\", \"checkpoints[C3]\"],\n      \"coverage_level\": \"knowledge_backed\",\n      \"verdict\": \"对\",\n      \"error_type\": {\"primary\": \"无\", \"secondary\": null},\n      \"evidence_gap\": null,\n      \"correction\": \"符合 core_definition[E1] 与 core_definition[E2] 对第一层对象显著性、第二层属性显著性的区分，也通过 checkpoints[C3]。\",\n      \"covered_key_elements\": [\"K4\"],\n      \"missing_key_elements\": []\n    },\n    {\n      \"claim_span\": \"网络议程设置是对象与属性关联网络的转移\",\n      \"subject\": \"网络议程设置\",\n      \"card_ref\": [\"checkpoints[C1]\", \"checkpoints[C8]\", \"core_definition[E3]\", \"checkpoints[C4]\"],\n      \"coverage_level\": \"knowledge_backed\",\n      \"verdict\": \"对\",\n      \"error_type\": {\"primary\": \"无\", \"secondary\": null},\n      \"evidence_gap\": null,\n      \"correction\": \"符合 core_definition[E3]：网络议程设置关心对象与对象、对象与属性、属性与属性之间关联网络的转移；也通过 checkpoints[C4]。\",\n      \"covered_key_elements\": [\"K4\"],\n      \"missing_key_elements\": []\n    },\n    {\n      \"claim_span\": \"它还受到政府和公关的影响\",\n      \"subject\": \"媒体议程的来源（政府、公关）\",\n      \"card_ref\": [\"checkpoints[C1]\", \"checkpoints[C8]\", \"necessary_boundary[B5]\", \"uncovered_dimensions[agenda_building]\", \"adjacent_concepts[议程建构]\"],\n      \"coverage_level\": \"ai_judged\",\n      \"verdict\": \"部分对\",\n      \"error_type\": {\"primary\": \"完整性错误\", \"secondary\": null},\n      \"evidence_gap\": null,\n      \"correction\": \"necessary_boundary[B5] 指出只讨论媒体议程由谁制造、政府或公关如何影响媒体，而不讨论媒体议程对公众的重要性判断，属于议程建构或来源研究，不是本地三框架的核心效果命题。uncovered_dimensions[agenda_building] 与 adjacent_concepts[议程建构] 能部分接住“政府、公关塑造媒体议程”这一上游过程，但本地议程设置只接住媒体议程形成后对公众的显著性转移，接不住来源—媒体过程本身。\",\n      \"covered_key_elements\": [],\n      \"missing_key_elements\": [],\n      \"ai_generated\": true,\n      \"unverified\": true,\n      \"classic_definition_comparison\": \"偏离：这句话讨论的是媒体议程由谁制造，接近议程建构，而不是议程设置核心的媒体显著性向公众显著性转移。\",\n      \"deviation_note\": \"偏差在于把上游的议程建构（政府、公关影响媒体议程）直接并入议程设置；本地三框架把媒体议程当作起点，不解释它如何形成。\"\n    },\n    {\n      \"claim_span\": \"算法推荐也会影响我看到什么\",\n      \"subject\": \"平台算法\",\n      \"card_ref\": [\"checkpoints[C1]\", \"checkpoints[C8]\", \"uncovered_dimensions[algorithm_curation]\", \"acceptable_variants[A4]\"],\n      \"coverage_level\": \"ai_judged\",\n      \"verdict\": \"部分对\",\n      \"error_type\": {\"primary\": \"完整性错误\", \"secondary\": null},\n      \"evidence_gap\": null,\n      \"correction\": \"uncovered_dimensions[algorithm_curation] 指出平台算法通过排序、推荐、过滤和个性化曝光决定用户看到哪些议题，这是本地三框架没有完整覆盖的议程设置者；acceptable_variants[A4] 能部分接住“平台推荐反复把某些议题推到用户面前，可能影响用户对这些议题重要性的判断”。但本地接不住平台算法作为议程设置者、个性化排序、反馈回路和平台规则对议程的塑造。\",\n      \"covered_key_elements\": [\"K1\"],\n      \"missing_key_elements\": [],\n      \"ai_generated\": true,\n      \"unverified\": true,\n      \"classic_definition_comparison\": \"部分符合：平台曝光影响议题可见性可被第一层议程设置部分接住，但“算法推荐”作为议程设置者的完整机制不在本地三框架内。\",\n      \"deviation_note\": \"偏差在于本地知识卡没有系统覆盖平台算法作为议程设置者、个性化排序和反馈回路；只能部分接住“平台曝光影响议题重要性”这一层。\"\n    },\n    {\n      \"claim_span\": \"但它不直接决定我支持谁\",\n      \"subject\": \"议程设置的效果边界\",\n      \"card_ref\": [\"checkpoints[C1]\", \"checkpoints[C8]\", \"common_misreadings[M1]\", \"core_definition[E4]\"],\n      \"coverage_level\": \"knowledge_backed\",\n      \"verdict\": \"对\",\n      \"error_type\": {\"primary\": \"无\", \"secondary\": null},\n      \"evidence_gap\": null,\n      \"correction\": \"符合 common_misreadings[M1] 与 core_definition[E4]：议程设置研究显著性转移，不直接决定公众支持谁、持什么立场；媒体是否改变具体立场属于框架、priming 或态度研究要分开处理的问题。\",\n      \"covered_key_elements\": [\"K5\"],\n      \"missing_key_elements\": []\n    },\n    {\n      \"claim_span\": \"也不等同于priming\",\n      \"subject\": \"议程设置与 priming 的边界\",\n      \"card_ref\": [\"checkpoints[C1]\", \"checkpoints[C8]\", \"common_misreadings[M4]\", \"adjacent_concepts[priming]\"],\n      \"coverage_level\": \"knowledge_backed\",\n      \"verdict\": \"对\",\n      \"error_type\": {\"primary\": \"无\", \"secondary\": null},\n      \"evidence_gap\": null,\n      \"correction\": \"符合 common_misreadings[M4] 与 adjacent_concepts[priming]：议程设置关注公众对对象重要性的判断；priming 更关注先前暴露的议题如何提高相关判断在后续评价中的可及性或权重。\",\n      \"covered_key_elements\": [\"K5\"],\n      \"missing_key_elements\": []\n    }\n  ],\n  \"summary\": \"claim 对议程设置的定义、第一层/第二层/网络议程设置的层次区分、以及“不直接决定支持谁、不等同于 priming”的边界表述成立；但“受到政府和公关的影响”属于议程建构而非本地三框架核心效果命题，“算法推荐影响我看到什么”只能被本地框架部分接住，整体为部分对。\"\n}",
+  "parsed": {
+    "concept": "agenda-setting",
+    "claim": "议程设置就是媒体通过突出报道某些议题让公众觉得这些议题更重要，第一层是对象显著性，第二层是属性显著性，网络议程设置是对象与属性关联网络的转移，它还受到政府和公关的影响，算法推荐也会影响我看到什么，但它不直接决定我支持谁，也不等同于priming。",
+    "overall": "部分对",
+    "points": [
+      {
+        "claim_span": "议程设置就是媒体通过突出报道某些议题让公众觉得这些议题更重要",
+        "subject": "新闻媒体",
+        "card_ref": [
+          "checkpoints[C1]",
+          "checkpoints[C8]",
+          "core_definition[E1]",
+          "core_definition[E4]",
+          "necessary_boundary[B1]",
+          "necessary_boundary[B2]"
+        ],
+        "coverage_level": "knowledge_backed",
+        "verdict": "对",
+        "error_type": {
+          "primary": "无",
+          "secondary": null
+        },
+        "evidence_gap": null,
+        "correction": "符合 core_definition[E1] 与 necessary_boundary[B1][B2]：媒体突出报道对象、公众觉得更重要，正是对象显著性转移。可补充 core_definition[E4] 的“概率性、条件性”限定，说明曝光是经验前提而非充分条件。",
+        "covered_key_elements": [
+          "K1",
+          "K2",
+          "K3"
+        ],
+        "missing_key_elements": []
+      },
+      {
+        "claim_span": "第一层是对象显著性，第二层是属性显著性",
+        "subject": "议程设置理论层次",
+        "card_ref": [
+          "checkpoints[C1]",
+          "checkpoints[C8]",
+          "core_definition[E1]",
+          "core_definition[E2]",
+          "checkpoints[C3]"
+        ],
+        "coverage_level": "knowledge_backed",
+        "verdict": "对",
+        "error_type": {
+          "primary": "无",
+          "secondary": null
+        },
+        "evidence_gap": null,
+        "correction": "符合 core_definition[E1] 与 core_definition[E2] 对第一层对象显著性、第二层属性显著性的区分，也通过 checkpoints[C3]。",
+        "covered_key_elements": [
+          "K4"
+        ],
+        "missing_key_elements": []
+      },
+      {
+        "claim_span": "网络议程设置是对象与属性关联网络的转移",
+        "subject": "网络议程设置",
+        "card_ref": [
+          "checkpoints[C1]",
+          "checkpoints[C8]",
+          "core_definition[E3]",
+          "checkpoints[C4]"
+        ],
+        "coverage_level": "knowledge_backed",
+        "verdict": "对",
+        "error_type": {
+          "primary": "无",
+          "secondary": null
+        },
+        "evidence_gap": null,
+        "correction": "符合 core_definition[E3]：网络议程设置关心对象与对象、对象与属性、属性与属性之间关联网络的转移；也通过 checkpoints[C4]。",
+        "covered_key_elements": [
+          "K4"
+        ],
+        "missing_key_elements": []
+      },
+      {
+        "claim_span": "它还受到政府和公关的影响",
+        "subject": "媒体议程的来源（政府、公关）",
+        "card_ref": [
+          "checkpoints[C1]",
+          "checkpoints[C8]",
+          "necessary_boundary[B5]",
+          "uncovered_dimensions[agenda_building]",
+          "adjacent_concepts[议程建构]"
+        ],
+        "coverage_level": "ai_judged",
+        "verdict": "部分对",
+        "error_type": {
+          "primary": "完整性错误",
+          "secondary": null
+        },
+        "evidence_gap": null,
+        "correction": "necessary_boundary[B5] 指出只讨论媒体议程由谁制造、政府或公关如何影响媒体，而不讨论媒体议程对公众的重要性判断，属于议程建构或来源研究，不是本地三框架的核心效果命题。uncovered_dimensions[agenda_building] 与 adjacent_concepts[议程建构] 能部分接住“政府、公关塑造媒体议程”这一上游过程，但本地议程设置只接住媒体议程形成后对公众的显著性转移，接不住来源—媒体过程本身。",
+        "covered_key_elements": [],
+        "missing_key_elements": [],
+        "ai_generated": true,
+        "unverified": true,
+        "classic_definition_comparison": "偏离：这句话讨论的是媒体议程由谁制造，接近议程建构，而不是议程设置核心的媒体显著性向公众显著性转移。",
+        "deviation_note": "偏差在于把上游的议程建构（政府、公关影响媒体议程）直接并入议程设置；本地三框架把媒体议程当作起点，不解释它如何形成。"
+      },
+      {
+        "claim_span": "算法推荐也会影响我看到什么",
+        "subject": "平台算法",
+        "card_ref": [
+          "checkpoints[C1]",
+          "checkpoints[C8]",
+          "uncovered_dimensions[algorithm_curation]",
+          "acceptable_variants[A4]"
+        ],
+        "coverage_level": "ai_judged",
+        "verdict": "部分对",
+        "error_type": {
+          "primary": "完整性错误",
+          "secondary": null
+        },
+        "evidence_gap": null,
+        "correction": "uncovered_dimensions[algorithm_curation] 指出平台算法通过排序、推荐、过滤和个性化曝光决定用户看到哪些议题，这是本地三框架没有完整覆盖的议程设置者；acceptable_variants[A4] 能部分接住“平台推荐反复把某些议题推到用户面前，可能影响用户对这些议题重要性的判断”。但本地接不住平台算法作为议程设置者、个性化排序、反馈回路和平台规则对议程的塑造。",
+        "covered_key_elements": [
+          "K1"
+        ],
+        "missing_key_elements": [],
+        "ai_generated": true,
+        "unverified": true,
+        "classic_definition_comparison": "部分符合：平台曝光影响议题可见性可被第一层议程设置部分接住，但“算法推荐”作为议程设置者的完整机制不在本地三框架内。",
+        "deviation_note": "偏差在于本地知识卡没有系统覆盖平台算法作为议程设置者、个性化排序和反馈回路；只能部分接住“平台曝光影响议题重要性”这一层。"
+      },
+      {
+        "claim_span": "但它不直接决定我支持谁",
+        "subject": "议程设置的效果边界",
+        "card_ref": [
+          "checkpoints[C1]",
+          "checkpoints[C8]",
+          "common_misreadings[M1]",
+          "core_definition[E4]"
+        ],
+        "coverage_level": "knowledge_backed",
+        "verdict": "对",
+        "error_type": {
+          "primary": "无",
+          "secondary": null
+        },
+        "evidence_gap": null,
+        "correction": "符合 common_misreadings[M1] 与 core_definition[E4]：议程设置研究显著性转移，不直接决定公众支持谁、持什么立场；媒体是否改变具体立场属于框架、priming 或态度研究要分开处理的问题。",
+        "covered_key_elements": [
+          "K5"
+        ],
+        "missing_key_elements": []
+      },
+      {
+        "claim_span": "也不等同于priming",
+        "subject": "议程设置与 priming 的边界",
+        "card_ref": [
+          "checkpoints[C1]",
+          "checkpoints[C8]",
+          "common_misreadings[M4]",
+          "adjacent_concepts[priming]"
+        ],
+        "coverage_level": "knowledge_backed",
+        "verdict": "对",
+        "error_type": {
+          "primary": "无",
+          "secondary": null
+        },
+        "evidence_gap": null,
+        "correction": "符合 common_misreadings[M4] 与 adjacent_concepts[priming]：议程设置关注公众对对象重要性的判断；priming 更关注先前暴露的议题如何提高相关判断在后续评价中的可及性或权重。",
+        "covered_key_elements": [
+          "K5"
+        ],
+        "missing_key_elements": []
+      }
+    ],
+    "summary": "claim 对议程设置的定义、第一层/第二层/网络议程设置的层次区分、以及“不直接决定支持谁、不等同于 priming”的边界表述成立；但“受到政府和公关的影响”属于议程建构而非本地三框架核心效果命题，“算法推荐影响我看到什么”只能被本地框架部分接住，整体为部分对。"
+  }
+}

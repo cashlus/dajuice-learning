@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071321"/>
+      <stop offset="1" stop-color="#120F25"/>
+    </linearGradient>
+    <linearGradient id="line" x1="220" y1="500" x2="980" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.1"/>
+      <stop offset="0.5" stop-color="#818CF8" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#F0ABFC" stop-opacity="0.12"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(600 338) rotate(90) scale(280)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#94A3B8" stroke-opacity="0.075"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="675" rx="32" fill="url(#grid)"/>
+  <circle cx="600" cy="338" r="280" fill="url(#halo)"/>
+  <circle cx="600" cy="338" r="178" stroke="#A5F3FC" stroke-opacity="0.14" stroke-dasharray="4 12"/>
+  <circle cx="600" cy="338" r="112" stroke="#C4B5FD" stroke-opacity="0.2"/>
+  <circle cx="600" cy="338" r="58" fill="#0A1324" stroke="#A78BFA" stroke-opacity="0.4"/>
+  <circle cx="600" cy="338" r="10" fill="#DDD6FE" filter="url(#glow)"/>
+  <path d="M600 338L328 210M600 338L872 210M600 338L286 430M600 338L914 430M600 338L498 532M600 338L702 532" stroke="url(#line)"/>
+  <g fill="#A5F3FC">
+    <circle cx="328" cy="210" r="6" fill-opacity="0.8"/>
+    <circle cx="872" cy="210" r="5" fill-opacity="0.7"/>
+    <circle cx="286" cy="430" r="5" fill-opacity="0.6"/>
+    <circle cx="914" cy="430" r="6" fill-opacity="0.8"/>
+    <circle cx="498" cy="532" r="4" fill-opacity="0.55"/>
+    <circle cx="702" cy="532" r="4" fill-opacity="0.55"/>
+  </g>
+  <path d="M180 140H330M870 540H1050" stroke="#E2E8F0" stroke-opacity="0.12"/>
+  <text x="600" y="636" text-anchor="middle" fill="#CBD5E1" fill-opacity="0.34" font-family="monospace" font-size="12" letter-spacing="6">KNOWLEDGE · CONCEPT · DEVELOPMENT</text>
+</svg>

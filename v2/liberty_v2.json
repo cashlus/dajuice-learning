@@ -1,0 +1,176 @@
+{
+  "concept": "liberty",
+  "core_question": "一个人的自由，究竟应由「他人是否实际施加干涉」、「他是否真正掌控自己的意志与人生」，还是「社会可以正当地对他施加强制的界限」来判定？",
+  "frameworks": [
+    {
+      "name": "Berlin 式消极自由",
+      "answers": "自由 = 他人施加的外部障碍、约束或干涉的缺席；判断一个人自由与否，只看外部障碍的有无与多少，不追问他的欲望是否「真实」，也不要求他自我实现。自由是「有多少扇门开着」，不是「是否走过正确的门」。",
+      "key_spans": [
+        {
+          "text": "「liberty as the absence of obstacles external to the agent」",
+          "source": "internal",
+          "locator": "seg 8; https://plato.stanford.edu/entries/liberty-positive-negative/#1-two-concepts-of-liberty"
+        },
+        {
+          "text": "「a mere absence of something (i.e. of obstacles, barriers, constraints or interference from others)」",
+          "source": "internal",
+          "locator": "seg 9; https://plato.stanford.edu/entries/liberty-positive-negative/#1-two-concepts-of-liberty"
+        },
+        {
+          "text": "「how many doors are open to the agent」",
+          "source": "internal",
+          "locator": "seg 8; https://plato.stanford.edu/entries/liberty-positive-negative/#1-two-concepts-of-liberty"
+        }
+      ],
+      "misreadings": [
+        "被误读为「想做什么就做什么」：把「无人干涉」扩大成「无任何限制」，并把欲望内容当作不必审查的前提。",
+        "被误读为「自由 = 没有法律、没有规则」：Berlin 的判据是「他人的干涉」，不是「一切约束」。",
+        "被误读为「只要没人实际阻拦，就完全自由」：忽略了共和主义指出的「无干涉 ≠ 无支配」。"
+      ]
+    },
+    {
+      "name": "Berlin 式积极自由",
+      "answers": "自由 = 成为自己的主人：行为出自主体自身的理性、真实意志或更高自我，能够自我决定、自我实现；判断自由要看「谁在控制」，而不只看「有没有人从外面拦」。",
+      "key_spans": [
+        {
+          "text": "「the presence of something (i.e. of control, self-mastery, self-determination or self-realization)」",
+          "source": "internal",
+          "locator": "seg 9; https://plato.stanford.edu/entries/liberty-positive-negative/#1-two-concepts-of-liberty"
+        },
+        {
+          "text": "「you must be self-determined, which is to say that you must be able to control your own destiny in your own interests」",
+          "source": "internal",
+          "locator": "seg 8; https://plato.stanford.edu/entries/liberty-positive-negative/#1-two-concepts-of-liberty"
+        },
+        {
+          "text": "「What, or who, is the source of control or interference that can determine someone to do, or be, this rather than that?」",
+          "source": "internal",
+          "locator": "seg 9; https://plato.stanford.edu/entries/liberty-positive-negative/#1-two-concepts-of-liberty"
+        }
+      ],
+      "misreadings": [
+        "被误读为「积极自由 = 做自己想做的事」：把「自我主宰」降格为「欲望满足」，恰好丢掉了「这个欲望是否真是你的」这一核心追问。",
+        "被误读为「积极自由天然等于集体主义或家长制」：Berlin 说的是积极自由可能被这样利用的政治风险，不是它的定义。",
+        "被误读为「只要主观上感觉自由就是自由」：积极自由要求的是真实的自我控制，不是主观感受。"
+      ]
+    },
+    {
+      "name": "Mill 式伤害原则/自由界限框架",
+      "answers": "自由 = 按自己的方式追求自己的生活计划，只受「不伤害、不侵犯他人同等领域」这一界限约束；该框架的核心问题不是「自由是什么本质」，而是「社会与法律可以正当地干涉个人到哪一步」——伤害是限制个人自由的唯一正当依据。",
+      "key_spans": [
+        {
+          "text": "「over himself, over his own body and mind, the individual is sovereign」（Mill, On Liberty I 9）",
+          "source": "external",
+          "locator": "https://plato.stanford.edu/entries/mill-moral-political/#HarPri"
+        },
+        {
+          "text": "「the sole legitimate basis for restricting individual liberties」",
+          "source": "external",
+          "locator": "https://plato.stanford.edu/entries/mill-moral-political/#HarPri"
+        },
+        {
+          "text": "「pursue her own projects subject only to the constraint that she respect the spheres of others」",
+          "source": "internal",
+          "locator": "seg 18; https://plato.stanford.edu/entries/liberty-positive-negative/#2-the-paradox-of-positive-liberty"
+        }
+      ],
+      "misreadings": [
+        "被误读为「自由的定义就是不伤害他人」：把「界限条件」当成「本质判据」。",
+        "被误读为「只要没有具体个人受到直接伤害，任何行为都不可被规制」：忽略间接伤害、公共品与制度性后果。",
+        "被误读为「Mill 属于积极自由阵营」：SEP 明确把他与 Humboldt 列为 negative freedom 的倡导者；他的独特贡献在「界限」，不在「自我主宰」。"
+      ]
+    }
+  ],
+  "disagreements": [
+    {
+      "between": [
+        "Berlin 式消极自由",
+        "Berlin 式积极自由"
+      ],
+      "disagreement_type": "定义之争",
+      "what_is_at_stake": "争的是自由的判据要不要审查欲望的来源：消极自由只看外部障碍，积极自由要求行为出自「真实、更高自我」。同一个顺从行为（例如心甘情愿地服从权威）在两套框架下会得到相反判定——前者说「没人拦你，你自由」，后者说「你被虚假意识支配，你不自由」。"
+    },
+    {
+      "between": [
+        "Berlin 式消极自由",
+        "Mill 式伤害原则/自由界限框架"
+      ],
+      "disagreement_type": "界限之争",
+      "what_is_at_stake": "Berlin 问「自由是什么」（无干涉还是自我主宰），Mill 问「自由到哪里为止、社会何时可以正当地干涉」。把伤害原则当成自由的定义，就是把「界限」误当成「本质」；反过来，只谈无干涉而不谈界限，就无法回答「法律凭什么管我」。"
+    },
+    {
+      "between": [
+        "Berlin 式积极自由",
+        "Mill 式伤害原则/自由界限框架"
+      ],
+      "disagreement_type": "条件之争",
+      "what_is_at_stake": "积极自由把自由的条件放在主体内部（你是否真正自主、是否被虚假欲望支配），Mill 把条件放在主体之间（他人可以正当地对你施加何种强制）。一个向内追问「你的意志是不是你的」，一个向外划定「别人能管你到哪」。"
+    }
+  ],
+  "common_confusions": [
+    {
+      "confusion": "把「做自己想做的事」当成单一框架的定义（消极自由/积极自由混淆）",
+      "user_patterns": [
+        "自由就是做自己想做的事",
+        "自由就是想干嘛干嘛",
+        "自由就是随心所欲"
+      ],
+      "what_is_confused": "同一句话压进了两种判据：按消极自由读，它只要求「没有人拦你」——外部障碍缺席；按积极自由读，它要求「你想做的确实出自你自己的真实意志」——自我主宰。这句话字面匹配前者，却常被用来表达后者，于是把「这个欲望是否真是你的」这一积极自由的核心问题悄悄预设掉了。",
+      "diagnosis": "先不要判成单一框架。指出它在 Berlin 二分下有歧义：读法 A = 没人干涉你去做你想做的（消极自由）；读法 B = 你想做的确实出自你的真实意志、而非被操纵或自我欺骗（积极自由）。再追问一句：你说的「想做的事」，是「没人拦着我去做」，还是「这确实是我真正想要的」？——A 归消极自由，B 归积极自由。",
+      "trigger_condition": "仅当 claim 同时含『外部障碍/干涉缺失』与『欲望真实性追问（这个欲望是否真是你的）』两种语义成分时触发。若 claim 以『没人拦/没人干涉/没有外部阻力/别人不阻止』为唯一条件限定，且无真实意志/自我主宰成分，判 single 消极自由，不触发本混淆。",
+      "key_spans": [
+        {
+          "text": "「You are free if no one is stopping you from doing whatever you might want to do」",
+          "source": "internal",
+          "locator": "seg 8; https://plato.stanford.edu/entries/liberty-positive-negative/#1-two-concepts-of-liberty"
+        },
+        {
+          "text": "「you must be self-determined, which is to say that you must be able to control your own destiny in your own interests」",
+          "source": "internal",
+          "locator": "seg 8; https://plato.stanford.edu/entries/liberty-positive-negative/#1-two-concepts-of-liberty"
+        }
+      ]
+    },
+    {
+      "confusion": "把伤害原则当成自由的定义（界限当本质）",
+      "user_patterns": [
+        "自由是不损害他人",
+        "自由就是不影响别人",
+        "我的自由止于别人的自由"
+      ],
+      "what_is_confused": "Mill 式框架回答的是「社会、法律可以正当地干涉个人到哪一步」，即自由的界限；Berlin 式框架回答的是「自由本身是什么」。把「不损害他人」当成定义，等于用边界条件替换本质判据。",
+      "diagnosis": "先归类为「界限框架」而不是「定义」：你说的是自由应当止于何处，不是自由由什么构成。再对照 Berlin：消极自由说自由 = 无干涉，积极自由说自由 = 自我主宰；Mill 补的是第三层——干涉何时正当。可追问：「不损害他人」在你这里是自由的定义，还是对自由的外在限制？",
+      "trigger_condition": "仅当 claim 把『不损害他人/不伤害别人/尊重他人的领域』当作自由本身的定义或唯一判据时触发；若 claim 只是把伤害原则表述为自由的外部界限、正当干涉条件，或把它与另一自由判据并列作为限定，判对应单框架或框架间歧义，不触发本混淆。",
+      "key_spans": [
+        {
+          "text": "「pursue her own projects subject only to the constraint that she respect the spheres of others」",
+          "source": "internal",
+          "locator": "seg 18; https://plato.stanford.edu/entries/liberty-positive-negative/#2-the-paradox-of-positive-liberty"
+        },
+        {
+          "text": "「the sole legitimate basis for restricting individual liberties」",
+          "source": "external",
+          "locator": "https://plato.stanford.edu/entries/mill-moral-political/#HarPri"
+        }
+      ]
+    },
+    {
+      "confusion": "无干涉 = 无支配（把消极自由当成自由的全部）",
+      "user_patterns": [
+        "没人拦着我就是自由",
+        "只要别人不实际干涉我，我就自由",
+        "我不受管束就是自由"
+      ],
+      "what_is_confused": "消极自由只要求「事实上无干涉」；共和主义指出，即使主人从不干涉，奴隶仍处于可被任意支配的地位，因此不自由。「没人拦」与「没人有权任意拦」是两种不同的自由判据。",
+      "diagnosis": "先确认「没人拦」是哪一种：事实上没人干涉（Berlin 式消极自由），还是没有人拥有任意干涉你的权力（共和主义无支配）。用「不干涉的主人」反例点破：奴隶在仁慈主人下仍不自由，因为支配不等于实际干涉（SEP §4，seg 27）。",
+      "trigger_condition": "仅当 claim 直接把『没人实际干涉/没人拦』等同于自由，并据此否认无支配是独立自由判据时触发；若 claim 明确承认无支配是与无干涉不同的另一种判据，或只是描述仁慈主人下仍可能受支配，判 no_coverage 或对应单框架，不触发本混淆。",
+      "key_spans": [
+        {
+          "text": "「Even if the slave enjoys non-interference, she is, as Pettit puts it, 『dominated』, because she is subject to the arbitrary power of her owner, even if that power is never in fact exercised」",
+          "source": "internal",
+          "locator": "seg 27; https://plato.stanford.edu/entries/liberty-positive-negative/#4-republican-liberty-a-third-way"
+        }
+      ]
+    }
+  ]
+}

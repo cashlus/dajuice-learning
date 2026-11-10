@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="30" x2="1100" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071322"/>
+      <stop offset="0.58" stop-color="#0A1020"/>
+      <stop offset="1" stop-color="#190F27"/>
+    </linearGradient>
+    <linearGradient id="plane" x1="256" y1="214" x2="944" y2="404" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.5" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#F0ABFC"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(600 338) rotate(90) scale(300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#94A3B8" stroke-opacity="0.075"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="675" rx="32" fill="url(#grid)"/>
+  <circle cx="600" cy="338" r="300" fill="url(#halo)"/>
+  <path d="M286 420L600 552L914 420L600 288L286 420Z" fill="#0A1526" stroke="#67E8F9" stroke-opacity="0.22"/>
+  <path d="M286 346L600 478L914 346L600 214L286 346Z" fill="#0B1829" stroke="#818CF8" stroke-opacity="0.26"/>
+  <path d="M286 272L600 404L914 272L600 140L286 272Z" fill="#0D172A" stroke="#F0ABFC" stroke-opacity="0.22"/>
+  <path d="M600 288V552M600 214V478M600 140V404" stroke="#E2E8F0" stroke-opacity="0.09"/>
+  <g opacity="0.95">
+    <circle cx="600" cy="214" r="46" fill="#0B1223" stroke="#A78BFA" stroke-opacity="0.5"/>
+    <circle cx="600" cy="214" r="7" fill="#DDD6FE" filter="url(#glow)"/>
+    <circle cx="422" cy="284" r="25" fill="#0B1B2C" stroke="#67E8F9" stroke-opacity="0.38"/>
+    <circle cx="778" cy="284" r="25" fill="#0B1B2C" stroke="#67E8F9" stroke-opacity="0.38"/>
+    <circle cx="330" cy="358" r="19" fill="#101427" stroke="#F0ABFC" stroke-opacity="0.34"/>
+    <circle cx="870" cy="358" r="19" fill="#101427" stroke="#F0ABFC" stroke-opacity="0.34"/>
+    <circle cx="474" cy="494" r="19" fill="#0C1726" stroke="#818CF8" stroke-opacity="0.36"/>
+    <circle cx="726" cy="494" r="19" fill="#0C1726" stroke="#818CF8" stroke-opacity="0.36"/>
+  </g>
+  <path d="M422 284L600 214M778 284L600 214M330 358L422 284M870 358L778 284M474 494L330 358M726 494L870 358M600 288L474 494M600 288L726 494" stroke="#E2E8F0" stroke-opacity="0.16"/>
+  <g opacity="0.9">
+    <rect x="78" y="102" width="184" height="1" fill="#67E8F9" fill-opacity="0.24"/>
+    <text x="78" y="88" fill="#A5F3FC" fill-opacity="0.42" font-family="monospace" font-size="11" letter-spacing="4">PLATFORM LAYERS</text>
+    <rect x="940" y="580" width="184" height="1" fill="#F0ABFC" fill-opacity="0.22"/>
+    <text x="1124" y="566" text-anchor="end" fill="#F5D0FE" fill-opacity="0.38" font-family="monospace" font-size="11" letter-spacing="4">CONSISTENT EXPERIENCE</text>
+  </g>
+  <text x="600" y="630" text-anchor="middle" fill="#CBD5E1" fill-opacity="0.34" font-family="monospace" font-size="12" letter-spacing="6">ECOSYSTEM · CONTENT · ALGORITHM</text>
+</svg>
